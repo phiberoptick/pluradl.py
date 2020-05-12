@@ -84,6 +84,7 @@ add-dev-console-to-your-app-with-javascript-increase-productivity
 add-profit-to-business-by-adding-purpose
 adding-dynamics-mermaid-animation-bifrost-maya-1909
 adding-facial-topology-maya-294
+adding-graphics-web-pages-using-canvas-svg
 adding-keyframe-animation-motion-capture-maya-1813
 adfs-logon-server-by-example
 adfs2-and-wif35
@@ -163,6 +164,7 @@ advanced-defensive-programming-techniques
 advanced-editing-theories-techniques-premiere-pro-1624
 advanced-editing-workflows-lightroom-2273
 advanced-editor-scripting-unity-monodevelop-1992
+advanced-entity-framework-six-ninja-features
 advanced-generators-and-coroutines
 advanced-git
 advanced-git-techniques
@@ -176,6 +178,7 @@ advanced-maya-fur-menus-263
 advanced-modeling-tools-revit-1509
 advanced-network-system-administration-lfce
 advanced-networking-aws
+advanced-networking-security-aws
 advanced-persistent-threats-big-picture
 advanced-powershell-dsc
 advanced-production-techniques-3dequalizer-nuke-1679
@@ -576,6 +579,8 @@ animation-tips-tricks-maya-173
 animation-video-editing-photoshop-cs6-1060
 annotating-arch-drawings-autocad-1920
 annotating-ggplot2-visualizations-r
+ansible-fundamentals
+ansible-windows-fundamentals
 ansible-windows-getting-started
 ansys-introduction
 aop
@@ -596,7 +601,11 @@ apache-web-server-install-config
 apex-absolute-beginner-guide-coding-salesforce
 apex-fundamental-coding
 apex-soql-salesforce
+api-design-fundamentals-google-clouds-apigee-api-platform
+api-design-fundamentals-google-clouds-apigee-api-platform-update
 api-design-nodejs-express-mongo
+api-development-google-clouds-apigee-api-platform
+api-development-google-clouds-apigee-api-platform-update
 api-security-google-clouds-apigee-api-platform
 api-testing-hp-unified-functional-testing
 app-deployment-debugging-performance
@@ -612,12 +621,14 @@ application-layer-protocols-cisco-ccna-200-125-100-105
 applied-classification-xgboost
 applied-windows-azure
 applying-business-analysis-skills
+applying-differential-equations-inverse-models-r
 applying-functional-programming-techniques-java
 applying-functions-r
 applying-linear-algebra-with-r
 applying-machine-learning-data-gcp
 applying-mathematical-mass-model-r
 applying-matte-painting-techniques-image-editing-web-photoshop-1756
+applying-mvvm-xamarin-forms-applications
 applying-post-production-techniques-silhouettefx-2193
 applying-r-built-in-functions
 applying-responsive-retrofitting-techniques-fixed-width-site-css-1840
@@ -740,6 +751,7 @@ aspdotnet-webforms4-intro
 aspdotnet-xml-reporting-by-example
 aspdotnet4-delta
 aspdotnetcore-internationalization-deep-dive
+aspect-oriented-programming-spring-aop
 aspect-oriented-programming-spring-aspectj
 aspnet-bundling-minification-resource-optimization
 aspnet-core-3-mvc-request-life-cycle
@@ -817,7 +829,11 @@ automated-tests-phpunit
 automated-web-testing-selenium-webdriver-java
 automatic-dotnet-code-weaving-fody
 automating-aws-operations-aws-cli
+automating-cisco-dna-center-operations-using-apis
 automating-cisco-meraki-operations-using-apis
+automating-cisco-sd-wan-operations-using-apis
+automating-container-management-ansible
+automating-deployment-amazon-ec2-ansible
 automating-jenkins-groovy
 automating-networks-ansible-right-way
 automating-networks-python
@@ -859,6 +875,7 @@ aws-certified-sysops-admin-associate
 aws-cloud-security-monitoring
 aws-command-line-interface-mastering-operations
 aws-comprehend-analyzing-text
+aws-compute-deep-dive
 aws-config-inventory-change-compliance
 aws-course
 aws-database-amazon-elasticache
@@ -999,6 +1016,7 @@ azure-service-fabric-production
 azure-service-fabric-programming-models
 azure-services-providing-disaster-recovery
 azure-site-recovery-iaas-migration-disaster-recovery
+azure-site-recovery-strategy-designing-update
 azure-solutions-70-534-storage-data-access
 azure-solutions-prepare-pass-exam-70-532
 azure-solutions-web-apps-70-532
@@ -1295,8 +1313,13 @@ build-contribute-documentation-git-based-workflow
 build-customized-sharepoint-team-site-no-code
 build-dynamic-web-sites-mysql-php
 build-excel-addins-office-js-apis
+build-first-dashboard-tableau
+build-first-data-visualization-bokeh
 build-first-data-visualization-ggplot2
 build-first-data-visualization-google-charts
+build-first-data-visualization-matplotlib
+build-first-data-visualization-plotly-js
+build-first-data-visualization-seaborn
 build-go-apps-gorilla-toolkit
 build-ios-apps-react-native
 build-isomorphic-app-react-flux-webpack-firebase
@@ -1307,11 +1330,13 @@ build-react-native-exponent-redux-apps
 build-train-deploy-first-neural-network-tensorflow
 build-web-app-spring-mvc-hibernate-bootstrap-rest-service
 build-your-career-michael-lopp
+build-your-first-data-visualization-c3-js
 building-alteryx-apps-macros
 building-an-interactive-day-night-cycle-game-unreal-engine-1995
 building-android-apps-kotlin-getting-started
 building-angular-application-node-token-authentication
 building-angularjs-nodejs-apps-mean
+building-apex-applications-different-data-formats
 building-api-aspdotnet-core
 building-application-azure-service-fabric-mesh
 building-applications-aurelia
@@ -1353,6 +1378,7 @@ building-data-literate-culture-executive-briefing
 building-deploying-monitoring-apache-nifi-dataflow
 building-dotnet-console-applications-csharp
 building-dotnet-web-services-10ways
+building-end-to-end-machine-learning-workflows-kubeflow
 building-enterprise-distributed-online-analytics-platform
 building-etl-pipeline-microsoft-azure-databricks
 building-f-sharp-type-providers
@@ -1371,6 +1397,7 @@ building-flare-tool-nuke-2067
 building-futuristic-armor-zbrush-806
 building-fx-tools-houdini-2202
 building-graphql-apis-aspdotnet-core
+building-hardware-labs-ccna-study
 building-healthy-interpersonal-relationships-work
 building-high-performance-team
 building-high-performance-windows8-applications
@@ -1384,6 +1411,7 @@ building-it-strategic-plan
 building-jax-ws-web-services-apache-cxf
 building-landscape-from-ground-up-world-machine-2313
 building-layouts-css-grid
+building-leading-effective-threat-modeling-program
 building-linux-server-for-ruby-on-rails
 building-logo-illustrator-grind-coffee-shop-313
 building-logo-illustrator-mo-tv-311
@@ -1478,6 +1506,7 @@ business-analysis-needs-assessment-introduction
 business-analysis-planning
 business-analysis-planning-monitoring-tasks-techniques
 business-analysis-strategic-planning-delivering-value
+business-analysis-techniques-agile-environments
 business-analysis-techniques-conducting-strategy-analysis
 business-analysis-techniques-evaluating-solutions
 business-analysis-techniques-planning-monitoring
@@ -1486,6 +1515,7 @@ business-analysis-techniques-stakeholders
 business-analysis-techniques-toolkit
 business-analysis-working-with-stakeholders
 business-automation-python-getting-started
+business-basics
 business-catalyst-fundamentals
 business-connectivity-services-fundamentals
 business-continuity-management
@@ -1505,11 +1535,16 @@ c-sharp-design-patterns-adapter
 c-sharp-design-patterns-builder
 c-sharp-design-patterns-chain-responsibility
 c-sharp-design-patterns-composite
+c-sharp-design-patterns-data-access-patterns
 c-sharp-design-patterns-decorator
+c-sharp-design-patterns-flyweight
 c-sharp-design-patterns-mediator
 c-sharp-design-patterns-prototype
+c-sharp-design-patterns-proxy
+c-sharp-design-patterns-singleton
 c-sharp-design-patterns-state
 c-sharp-design-patterns-strategy
+c-sharp-design-patterns-visitor
 c-sharp-dynamic-fundamentals
 c-sharp-error-handling-exceptions
 c-sharp-extension-methods
@@ -1577,10 +1612,12 @@ ccie-security-addressing-protocols
 ccna-routing-vlans
 ccnp-wireless-site-survey-pt1
 ccnp-wireless-site-survey-pt2
+ccsp-cloud-architecture-concepts
 ccsp-cloud-governance-data-privacy-audit
 ccsp-cloud-infrastructure-security
 ccsp-cloud-physical-logical-infrastructure
 ccsp-cloud-platform-security
+ccsp-cloud-risk-compliance
 ccsp-cloud-security-operations-controls
 centaur-zbrush-1099
 centralized-logging-elastic-stack
@@ -1688,6 +1725,7 @@ cisco-cicd-210-060-troubleshooting
 cisco-core-security-describing-configuring-vpns
 cisco-core-security-network-security
 cisco-core-security-network-security-cisco-asa
+cisco-core-security-network-security-cisco-firepower
 cisco-core-security-network-security-cisco-ios
 cisco-core-security-secure-network-access-cisco-ise
 cisco-core-security-secure-network-access-visibility-enforcement
@@ -1700,7 +1738,9 @@ cisco-data-center-core-implementing-automation
 cisco-e164-dial-plan-multisite-deployments
 cisco-edge-network-design-ccda-desgn-200-310
 cisco-enterprise-networks-basic-networking-ip-fundamentals
+cisco-enterprise-networks-implementing-eigrp
 cisco-enterprise-networks-implementing-ospf
+cisco-enterprise-networks-spanning-tree-protocols-etherchannels
 cisco-enterprise-networks-vlans-trunking
 cisco-firepower-fundamentals
 cisco-icnd2-640816
@@ -1940,6 +1980,7 @@ cold-fusion-introduction
 collaborative-workflows-storyboard-pro-1558
 collectible-items-2d-games-unity-1503
 color-correction-grading-premiere-pro-speedgrade-2361
+color-theory-fundamentals
 color-theory-todays-creative-professionals-1021
 coloring-beauty-sketch-photoshop-1090
 com-advanced-topics
@@ -2069,6 +2110,8 @@ conducting-business-analysis-developing-requirements
 confident-coding-automated-testing-aspdotnet-mvc
 configuration-client-connectivity-cisco-wifund-200-355
 configuration-deployment-cloud-cv0-002
+configure-functions-couchbase
+configure-protect-devices-microsoft-intune
 configuring-aad-microsoft-azure-workloads
 configuring-accounts-apple-certified-technical-coordinator-10-11
 configuring-cisco-router
@@ -2078,7 +2121,9 @@ configuring-cisco-video-collaboration-endpoints
 configuring-complex-ip-routing-arubaos-switch
 configuring-cors-in-aspnet-and-aspnet-core
 configuring-exchange-server-2013-with-sharepoint-2013
+configuring-managing-cisco-data-center-lab
 configuring-managing-kubernetes-storage-scheduling
+configuring-managing-microsoft-365-workload-integrations
 configuring-managing-monitoring-mobile-devices-mdm
 configuring-managing-office-365-security
 configuring-managing-onedrive-business
@@ -2139,6 +2184,7 @@ cookie-attacks-web-app-hacking
 copic-marker-illustrations-sketchbook-pro-1182
 coping-missing-invalid-duplicate-data-r
 cordova-apps-angular-typescript-vscode
+core-components-power-platform
 core-data-fundamentals
 core-python-functions-functional-programming
 core-python-numeric-types-dates-times
@@ -2147,6 +2193,27 @@ coreos-getting-started
 correlating-events-transactions-splunk
 costumes-production-maya-2070
 couchdb-with-rails
+covid-19-closing-thoughts
+covid-19-coronavirus-pandemic-new-normal
+covid-19-crowdsourcing-monitor-epidemics
+covid-19-curing-diseases
+covid-19-digital-epidemic-management
+covid-19-fake-news-global-emergencies
+covid-19-food-earth
+covid-19-government-organization-responses
+covid-19-leadership
+covid-19-leadership-change-remote-work
+covid-19-leverage-ai-pandemics
+covid-19-pandemics-resilient-cities
+covid-19-polarizing-pandemics
+covid-19-remote-distributed-work-crises
+covid-19-responding-other-outbreaks
+covid-19-self-reliant-neighborhoods
+covid-19-slowing-contagion
+covid-19-staying-healthy
+covid-19-take-action-uncertainty
+covid-19-use-data-boost-resilience
+covid-19-virtual-worlds
 cplusplus-11-from-scratch
 cplusplus-14-practical-features
 cplusplus-17-beyond-the-basics
@@ -2198,8 +2265,10 @@ cqrs-in-practice
 cqrs-theory-practice
 crawling-web-python-scrapy
 create-couchbase-function
+create-couchbase-nodes-buckets
 create-couchbase-views
 create-hair-fibermesh-zbrush-707
+create-manage-stacks-aws-cloudformation-command-line-interface
 create-share-analytics-jupyter-notebooks
 create-windows-10-images
 creating-3d-furniture-layout-autocad-1613
@@ -2241,6 +2310,7 @@ creating-leading-effective-teams-for-managers
 creating-list-based-screens-xamarin-forms
 creating-living-style-guide-sass-vanilla-javascript
 creating-machine-learning-models
+creating-managing-custom-standard-objects-salesforce
 creating-mixed-media-illustration-photoshop-painter-2139
 creating-mobile-apps-hybrid-cross-platform-native
 creating-mobile-games-gamesalad
@@ -2277,7 +2347,9 @@ creature-rigging-games
 creature-rigging-maya-insects-3522
 creature-texturing-mari-1458
 creature-texturing-mari-32
+credential-access-hashcat
 credential-access-mimikatz
+credential-access-responder
 credential-access-thc-hydra
 crisis-communication-technology-colleagues
 critical-analytical-skills-data-literacy-executive-briefing
@@ -2288,6 +2360,8 @@ cross-platform-mobile-game-html5-javascript-1961
 cross-platform-native-apps-appcelerator-studio-alloy
 cross-platform-sql-server-management-developers-vs-code
 cross-site-forgery-request-web-app
+cross-site-request-forgery-csrf-prevention-asp-dot-net-core-applications
+cross-site-scripting-xss-prevention-asp-dot-net-core-applications
 crowdfunding-fundamentals
 crowds-houdini-15-2387
 crowds-populate-3ds-max-1207
@@ -2336,6 +2410,7 @@ csharp-with-jon-skeet
 csharp-working-files-streams
 csharp-xml-fundamentals
 css-animation-with-transition-and-transform
+css-flexbox-creating-responsive-pages
 css-flexbox-fundamentals-2319
 css-grid-bootstrap-4-creating-site
 css-intro
@@ -2383,6 +2458,7 @@ cyber-security-executive-briefing
 cyber-security-while-traveling
 cybersecurity-threats-insider-threats
 cybersecurity-threats-ransomware
+cypress-end-to-end-javascript-testing
 d3-big-picture
 d3-data-visualization-fundamentals
 d3-getting-started
@@ -2428,7 +2504,9 @@ daydreamer-production-pipeline-7-compositing-2249
 dbg-chron1
 dbg-chron2
 ddd-ef-core-preserving-encapsulation
+dealing-credentials-when-securing-aspdotnet-core-3-application
 dealing-with-new-company-culture
+debug-monitor-functions-couchbase
 debugging-chronicles3
 debugging-powershell-vs-code
 debugging-visual-studio-2019
@@ -2441,6 +2519,7 @@ defeating-anti-reverse-engineering-anti-debugging-techniques
 defeating-cross-site-scripting-content-security-policy
 defeating-injection-attacks-aspnet-aspnet-core
 defending-javascript-keylogger-attacks-pci
+defense-evasion-invoke-obfuscation
 defensive-coding-csharp
 defensive-programming-java
 deformers-ref-library-modo-1441
@@ -2448,6 +2527,7 @@ delivering-value-quickly-icagile
 demand-work-management
 demystifying-aws-certified-solutions-architect-associate-exam
 demystifying-keyframe-interpolation-after-effects-1077
+deploy-apps-microsoft-intune
 deploy-azure-visual-studio-online
 deploy-windows-10-images
 deploying-application-aws
@@ -2455,6 +2535,7 @@ deploying-chef-cookbooks
 deploying-cisco-enterprise-voicemail-unity-express-mediasense-server
 deploying-cisco-prime-collab-telepresence-management-server
 deploying-cisco-unified-im-presence-jabber
+deploying-code-aws-codedeploy
 deploying-databases-octopus
 deploying-enterprise-voicemail-cisco-unity-connection
 deploying-gamesalad-games-for-testing
@@ -2500,23 +2581,30 @@ design-patterns-swift-structural
 design-stop-motion-snask
 design-tech-logo-stands-out-2528
 design-to-development-for-developers
+designing-advanced-security-aws
 designing-album-artwork-photoshop-325
 designing-an-album-cover-photoshop-538
 designing-an-iphone-app-axure-2185
 designing-an-underwater-scene-cinema-4d-after-effects-2180
 designing-appealing-cartoon-characters-photoshop-903
+designing-architecting-cisco-aci
 designing-azure-hybrid-cloud
 designing-boss-battle-environment-photoshop-1210
 designing-building-enterprise-blazor-applications
 designing-cast-characters-photoshop-1089
 designing-char-mobile-games-zbrush-2393
+designing-cisco-enterprise-networks-advanced-enterprise-campus-networks
+designing-cisco-enterprise-networks-automation
 designing-cisco-enterprise-networks-ipv4-ipv6-addressing-design
 designing-cisco-enterprise-networks-network-services
 designing-cisco-enterprise-networks-routing-protocols
 designing-cisco-enterprise-networks-wan-enterprise-networks
 designing-cisco-sd-wan-architecture-components
+designing-cisco-wireless-networks-wired-wireless-infrastructure
+designing-cisco-wireless-networks-wireless-site-surveys
 designing-cnc-laser-cutting-tinkercad-2103
 designing-complexity-aws
+designing-computing-data-center-infrastructure-cisco
 designing-concert-poster-photoshop-2304
 designing-controls-deformation-feedback-maya-1879
 designing-cosmetic-billboard-illustrator-photoshop-2212
@@ -2539,6 +2627,7 @@ designing-fantasy-creature-from-reality-zbrush-1839
 designing-fluent-apis-c-sharp
 designing-futuristic-menus-illustrator-1107
 designing-game-boss-photoshop-851
+designing-hybrid-networks-aws
 designing-implementing-aws-networks
 designing-implementing-maintaining-business-continuity-plan
 designing-implementing-maintaining-disaster-recovery-plan
@@ -2600,7 +2689,9 @@ developer-to-manager
 developers-guide-photo-design-techniques
 developers-guide-sql-server-clr
 developing-applications-aws-lightsail
+developing-azure-active-directory-b2c-applications
 developing-creature-concepts-games-1778
+developing-daemons-services-protected-azure-active-directory
 developing-dotnet-microsoft-azure-getting-started
 developing-effective-agile-sprint-plans
 developing-enemy-archetypes-games-1802
@@ -2611,7 +2702,9 @@ developing-html5-games-construct-2-2377
 developing-implementing-vulnerability-management-programs
 developing-javascript-single-page-applications-protected-azure-active-directory
 developing-killer-personal-brand
+developing-mobile-applications-protected-azure-active-directory
 developing-nodejs-microsoft-azure-getting-started
+developing-nodejs-microsoft-azure-getting-started-update
 developing-project-schedules-budgets
 developing-python-tools-nuke-2219
 developing-rapid-interactive-prototypes-omnigraffle-1959
@@ -2624,6 +2717,7 @@ developing-symbol-systems-illustrator-1874
 developing-team-culture
 developing-unified-asset-systems-illustrator-2295
 developing-web-applications-apis-protected-azure-active-directory
+developing-websites-accessibility-getting-started
 developing-workflow-rendering-fur-v-ray-2154
 device-driven-web-solutions-wurfl
 device-hardening-cnd
@@ -2703,9 +2797,12 @@ disaster-recovery-for-comptia-server-plus-sk0-004
 disaster-recovery-planning
 discovering-business-analysis-information-through-elicitation
 discovering-use-weldments-sheet-metal-design-solidworks-1848
+discovery-adrecon
+discovery-bloodhound
 disintegration-teleportation-reintegration-effects-houdini-2322
 displaying-tables-with-excel
 distorting-nature-after-effects-2218
+distributed-systems-the-big-picture
 distributing-excel-workbooks
 django-1-7-whats-new
 django-angularjs-web-development
@@ -3050,6 +3147,7 @@ efficient-workflows-creature-concept-design-photoshop-1582
 efmigrations
 elastic-beanstalk-building-applications
 elastic-cloud-infrastructure-scaling-automation
+elastic-google-cloud-infrastructure-scaling-automation
 elasticsearch-analyzing-data
 elasticsearch-designing-schema
 elasticsearch-for-dotnet-developers
@@ -3097,6 +3195,7 @@ enhancing-maya-toolset-mel-1338
 enhancing-maya-toolsets-python-1410
 enhancing-rigs-driven-keys-maya-1194
 enhancing-rigs-maya-muscle-578
+enroll-devices-microsoft-intune
 enrolling-securing-managing-devices-microsoft-intune
 enterprise-aws-lambdas-java-eclipse-ide
 enterprise-business-intelligence-tableau-server
@@ -3139,6 +3238,8 @@ eslint-better-code-quality
 essential-cloud-infrastructure-core-services
 essential-cloud-infrastructure-foundation
 essential-effects-vfx-animation
+essential-google-cloud-infrastructure-core-services
+essential-google-cloud-infrastructure-foundation
 essential-strategies-hand-painting-textures-mari-1603
 essential-strategies-hand-painting-textures-mari-625
 essential-strategies-hand-painting-textures-mudbox-1585
@@ -3254,6 +3355,7 @@ exploit-development-execution-metasploit-framework
 exploit-development-security-hackers-developers
 exploitation-evading-detection-bypassing-countermeasures
 exploiting-host-based-vulnerabilities-comptia-pentest
+exploratory-data-analysis-aws-machine-learning
 exploratory-data-analysis-python
 exploring-2d-features-unity-1471
 exploring-android-studio
@@ -3296,6 +3398,7 @@ exploring-go-modules
 exploring-hidden-gems-sysinternals-toolkit
 exploring-human-muscles-setup-maya-2395
 exploring-layer-effects-styles-photoshop-1810
+exploring-lean-principles
 exploring-maya-2016-2022
 exploring-mental-ray-materials-maya-650
 exploring-modeling-workflows-maya-397
@@ -3317,6 +3420,7 @@ extending-aem-foundations
 extending-bootstrap-css-javascript-jquery
 extending-capabilities-of-vrealize-automation-7
 extending-powershell
+extending-xamarin-forms
 extending-xaml-applications-behaviors
 exterior-rendering-techniques-mental-ray-3ds-max-632
 exterior-rendering-techniques-mental-ray-maya-634
@@ -3356,6 +3460,7 @@ fiddler-chrome-developer-tools-debugging-website
 field-guide-binary
 fiery-skin-effects-nukex-2178
 file-storage-aws-s3-glacier-developer-deep-dive
+files-java-nio-api
 film-noir-styled-artwork-illustrator-1269
 film-sound-production
 filter-data-couchbase-n1ql
@@ -3387,6 +3492,7 @@ first-day-edge-animate-1697
 first-day-rendering-autocad-1647
 first-day-storyboard-pro-1538
 first-person-shooter-unreal-engine-2074
+first-steps-it-governance-management
 five-architecture-facades-3ds-max-v-ray-1452
 five-essential-tools-building-rest-api
 fixie-introduction
@@ -3428,6 +3534,8 @@ forming-epic-terrains-udk-1105
 fostering-diverse-inclusive-culture
 foundational-elements-art-rest-life-1011
 foundational-tcp-analysis-wireshark
+foundations-document-databases-mongodb
+foundations-lean-six-sigma
 foundations-pytorch
 four-semesters-computer-science
 fpga-vhdl-beyond-basics
@@ -3754,6 +3862,8 @@ google-charts-creating-interactive-dashboards
 google-cloud-architecting-storage-configurations
 google-cloud-armor-security-scanner-data-loss-prevention-api-leveraging
 google-cloud-automl-designing-implementing-solutions
+google-cloud-aws-professionals
+google-cloud-azure-windows-professionals
 google-cloud-big-query
 google-cloud-compute-engine-creating-configuring-virtual-machines
 google-cloud-compute-engine-solutions-choosing-implementing
@@ -3808,6 +3918,7 @@ googleplus-business
 gorm-go-object-relational-mapper
 gory-effects-on-budget-cinema-4d-nuke-1397
 governance-information-security
+gradle-build-tool-fundamentals
 gradle-fundamentals
 grails-introduction
 graph-algorithms-python
@@ -4043,9 +4154,11 @@ implementing-application-layer-protocols-cisco-networks
 implementing-authentication-sharepoint-2019
 implementing-aws-networking-security-groups
 implementing-bas-relief-techniques-photoshop-illustrator-1835
+implementing-bootstrap-methods-r
 implementing-cis-critical-security-controls
 implementing-cisco-ucs-installing-and-configuring
 implementing-cisco-ucs-managing-and-troubleshooting
+implementing-cloud-app-security-microsoft-365
 implementing-cloud-services-azure-infrastructure
 implementing-custom-middleware-components-aspdotnet-core
 implementing-deployment-solutions-actc-10-11
@@ -4056,7 +4169,10 @@ implementing-eigrp-ccnp-routing-switching-300-101-route
 implementing-failover-clustering-storage-spaces-direct-windows-server-2019
 implementing-incident-management-scsm-2016
 implementing-managing-office-365-advanced-threat-protection
+implementing-message-brokering-amazon-mq
 implementing-mobile-device-management-microsoft-365
+implementing-monitoring-threat-management-microsoft-365
+implementing-monte-carlo-method-r
 implementing-netscaler-12-high-availability
 implementing-ospf-ccnp-routing-switching-300-101-route
 implementing-performing-risk-management-iso-iec-27005
@@ -4079,6 +4195,7 @@ implementing-windows-10-creators
 implementing-windows-server-2016-dhcp
 implementing-windows-server-2019-distributed-networking-services
 implementing-windows-server-2019-hyper-v
+implementing-windows-server-2019-ip-address-management
 implementing-wireless-network-cisco-wifund-200-355
 implementing-wireless-security-byod
 importing-common-data-file-formats-r-playbook
@@ -4152,6 +4269,9 @@ information-security-incidents-iso-iec-27002
 information-security-introduction
 information-security-measures-iso-iec-27002
 information-security-threats-risks-iso-iec-27002
+information-systems-asset-protection-asset-security
+information-systems-asset-protection-monitoring
+information-systems-asset-protection-securing-system-components
 information-systems-auditing-acquisition-development
 information-systems-auditing-big-picture
 information-systems-auditing-implementation
@@ -4195,6 +4315,7 @@ installing-configuring-iis
 installing-configuring-office-online-server
 installing-configuring-splunk
 installing-configuring-windows-10-introduction
+installing-running-powershell
 installing-sharepoint2013-powershell
 installing-windows-server-2016
 integrate-dynamics-crm-2016-sharepoint
@@ -4308,9 +4429,12 @@ intro-xsi-6-2496
 intro-xsi-7-3533
 intro-zbrush-3-3108
 intro-zbrush-4r7-2090
+introduce-microsoft-endpoint-manager-prepare-microsoft-intune
 introducing-cisco-data-center-networking
 introducing-office-ui-fabric
 introducing-scrum
+introducing-scrum-artifacts-definition-done
+introducing-scrum-events
 introducing-scrum-roles
 introduction-25d-relighting-nuke-381
 introduction-3d-after-effects-1573
@@ -4635,6 +4759,7 @@ java-9-micro-experimentation-tools
 java-9-modularity-first-look
 java-9-whats-new
 java-api-websockets-introduction
+java-application-development-tomcat
 java-bdd-cucumber-gherkin-getting-started
 java-bdd-fundamentals
 java-concurrent-patterns-advanced
@@ -4704,6 +4829,7 @@ javascript-generators-iterators
 javascript-getting-started
 javascript-good-parts
 javascript-in-salesforce-getting-started
+javascript-interop-blazor-applications
 javascript-jasmine-typescript
 javascript-jquery-advanced-techniques
 javascript-koa-introduction
@@ -4811,8 +4937,10 @@ kotlin-junit5-unit-testing
 kotlin-using-coroutines
 kubernetes-developers-core-concepts
 kubernetes-developers-deploying-code
+kubernetes-developers-integrating-volumes-using-multi-container-pods
 kubernetes-developers-moving-cloud
 kubernetes-installation-configuration-fundamentals
+kubernetes-packaging-applications-helm
 kusto-query-language-kql-from-scratch
 language-data-executive-briefing
 laravel-php-framework-getting-started-models-data
@@ -4820,6 +4948,8 @@ laravel-php-framework-getting-started-the-basics
 laravel-php-framework-getting-started-users-authentication
 large-scale-interior-renderings-cinema-4d-1096
 large-scale-javascript
+lateral-movement-mimikatz
+lateral-movement-psexec
 launching-machine-learning
 launching-successful-teams
 law-ethics-sec-compliance-management
@@ -4831,11 +4961,13 @@ leadership-communication-software-engineers
 leadership-for-non-managers
 leadership-getting-started
 leading-emotional-intelligence
+leading-through-crisis-executive-briefing
 lean-agile-enterprise-architecture-getting-started
 lean-front-end-engineering
 lean-in-navigating-gender-bias-at-work
 lean-in-negotiation-strategies-for-women
 lean-six-sigma-analytics-truth-about-data-getting-started
+lean-six-sigma-methodology
 lean-software-development-fundamentals
 learn-by-building-redis-with-ruby
 learn-perl-by-doing-part1
@@ -4845,6 +4977,7 @@ learn-perl-by-doing-part4
 learn-programming-cplusplus
 learn-to-program-kodu-kingdom-defense
 learn-to-program-sphero-robot
+learning-agile-versus-waterfall
 learning-craft-cms
 learning-expressionengine-cms
 learning-program-better-programmer
@@ -4854,6 +4987,7 @@ learning-programming-scratch
 learning-technology-information-age
 learning-work-quickly-efficiently-rhino-1850
 leaves-simulation-ncloth-maya-1459
+legal-ethical-considerations-digital-forensics
 less-getting-started
 level-streaming-kismet-udk-1554
 leveraging-common-middleware-packages
@@ -5026,6 +5160,7 @@ malware-analysis-identifying-defeating-packing
 malware-analysis-malicious-documents-performing
 manage-azure-virtual-networks-vpn-gateway
 manage-couchbase-lite
+manage-functions-couchbase
 manage-it-projects-office-365
 manage-office-data-sharepoint-2013
 manage-security-privacy-risk-nist-risk-management-framework
@@ -5072,6 +5207,7 @@ managing-microsoft-365-user-roles
 managing-microsoft-desktops-apps-data
 managing-microsoft-desktops-managing-protecting-devices
 managing-microsoft-exchange-server-mail-flow-topology
+managing-microsoft-teams-phone-numbers-systems
 managing-modern-software-dependency-ecosystem
 managing-openstack-authentication-authorization-keystone
 managing-pc-devices-with-microsoft-intune
@@ -5087,7 +5223,9 @@ managing-sharepoint-2016-powershell
 managing-source-control-aws-codecommit
 managing-sql-server-database-maintenance
 managing-sql-server-database-performance
+managing-ssis-projects
 managing-stakeholder-relationships
+managing-strategy-vision
 managing-subscription-tenant-health
 managing-synchronizing-microsoft-365-azure-identities
 managing-technical-professionals
@@ -5127,6 +5265,7 @@ master-detail-workflow-ef-mvc-identity-modals
 master-domain
 master-modeling-multi-body-parts-solidworks-2052
 mastercam-introduction-basics
+mastering-bash-z-shell-scripting-syntax
 mastering-css-animations-2135
 mastering-displacement-maps-maya-661
 mastering-git
@@ -5167,6 +5306,7 @@ maximizing-wacom-device-mari-864
 maximizing-wacom-device-maya-878
 maximizing-wacom-device-mudbox-865
 maximizing-wacom-device-zbrush-866
+maximizing-your-productivity-time-management
 maya-12-principles-animation
 maya-2017-building-walk-cycles
 maya-2017-exploring-2538
@@ -5325,6 +5465,7 @@ microservices-fundamentals
 microservices-nservicebus-scaling-applications
 microservices-nservicebus6-scaling-applications
 microservices-rest-apis-spring-data
+microservices-security-fundamentals
 microsoft-365-security-concepts
 microsoft-365-services-concepts
 microsoft-access-2016
@@ -5383,6 +5524,8 @@ microsoft-azure-cognitive-services-computer-vision-api
 microsoft-azure-cognitive-services-content-moderator
 microsoft-azure-cognitive-services-custom-vision-api
 microsoft-azure-cognitive-services-face-api
+microsoft-azure-cognitive-services-immersive-reader
+microsoft-azure-cognitive-services-ink-recognizer
 microsoft-azure-cognitive-services-language-services
 microsoft-azure-cognitive-services-qna-maker
 microsoft-azure-cognitive-services-recognition-bing-speech-api
@@ -5458,6 +5601,7 @@ microsoft-azure-feasibility-determining-requirements-refining
 microsoft-azure-feature-selection-extraction
 microsoft-azure-file-storage-implementing
 microsoft-azure-functional-non-functional-requirements-aligning
+microsoft-azure-functional-non-functional-requirements-aligning-update
 microsoft-azure-governance-mastering
 microsoft-azure-high-availability-designing
 microsoft-azure-host-security-implementing
@@ -5519,6 +5663,7 @@ microsoft-azure-non-functional-requirements-gathering
 microsoft-azure-nosql-databases-implementing
 microsoft-azure-on-premises-networks-virtual-networks-connecting
 microsoft-azure-one-time-costs-estimating-recurring
+microsoft-azure-one-time-costs-estimating-recurring-update
 microsoft-azure-operationalizing-ai-solutions
 microsoft-azure-optimize-feedback-mechanisms
 microsoft-azure-optimizing-ai-solutions
@@ -5601,6 +5746,7 @@ microsoft-dynamics-365-field-service
 microsoft-dynamics-365-getting-started
 microsoft-dynamics-365-project-service-automation
 microsoft-dynamics-365-sales
+microsoft-edge
 microsoft-edge-developers
 microsoft-enterprise-mobility-suite-getting-started
 microsoft-fakes
@@ -5789,6 +5935,7 @@ modeling-architectural-ideas-3ds-max-2036
 modeling-ask-dts-maya-966
 modeling-assault-rifle-blender-2333
 modeling-automotive-interiors-modo-3491
+modeling-aws-machine-learning
 modeling-bracelet-rhino-zbrush-2114
 modeling-cartoon-props-3ds-max-96
 modeling-char-3d-printing-zbrush-887
@@ -5895,6 +6042,7 @@ mongodb-introduction
 mongodb-nodejs
 mongoose-for-nodejs-mongodb
 mongoosejs-moving-forward
+monitor-couchbase-clusters
 monitoring-analysis-network-cnd
 monitoring-aws-cloudtrail
 monitoring-container-operations-oracle-cloud-container-engine-kubernetes
@@ -5971,6 +6119,7 @@ nativescript-animation-techniques
 nativescript-cross-platform-native-mobile-apps
 natural-language-processing-pytorch
 natural-media-brushes-photoshop-1983
+navigation-xamarin-forms-applications
 ncloth-characters-maya-856
 nebula-effect-fumefx-3ds-max-1680
 need-for-data-literacy-executive-briefing
@@ -6001,6 +6150,8 @@ networking-fundamentals-pt1
 networking-fundamentals-pt2
 networking-gcp-defining-implementing-networks
 networking-gcp-hybrid-connectivity-network-management
+networking-google-cloud-defining-implementing-networks
+networking-google-cloud-hybrid-connectivity-network-management
 networking-tunnels-junos-os
 new-bigquery-datasets-visualizing-insights
 new-features-hdr-light-studio-2-491
@@ -6117,6 +6268,7 @@ nosql-big-pic
 nparticles-maya-3568
 npm-audit-eliminating-security-vulnerabilities
 npm-build-tool-introduction
+npm-getting-started
 npm-playbook
 nuget
 nuke-10-introduction-3d
@@ -6236,17 +6388,20 @@ openstack-nova-neutron
 openvas-network-vulnerability-scanning
 operating-system-deployments-using-sccm-2012-sp1
 operating-wireless-network-cisco-wifund-200-355
+operationalizing-bash-z-shell-scripts
 operationalizing-cisco-firepower
 operationalizing-cyber-threat-intel-pivoting-hunting
 opsec-penetration-testers
 optical-character-recognition-windows-runtime
 optimize-n1ql-queries
+optimize-performance-react
 optimized-game-character-modeling
 optimizing-data-warehouse-microsoft-sql-server-platform
 optimizing-fields-tags-event-types-splunk
 optimizing-google-cloud-platform-gcp-costs
 optimizing-images-web-photoshop-1655
 optimizing-oltp-data-warehousing-sql-server-2014
+optimizing-query-performance-columnstore-indexes
 optimizing-sql-queries-oracle
 optimizing-sql-server-statistics-indexes
 optimizing-video-footage-after-effects-1608
@@ -6747,6 +6902,7 @@ power-bi-quick-insights-qna
 power-bi-reports-deploying-publishing
 power-bi-rest-api-building-first-application
 power-bi-users-talk-to-data-engineers
+power-platform-administration-foundation
 power-query-data-retrieve-transform-combine
 powercli-vmware-vsphere-automated-reporting
 powerful-lighting-effects-photoshop-1640
@@ -6811,6 +6967,7 @@ pragmatic-bdd-dotnet
 pragmatic-self-service-bi-powerpivot-excel
 pragmatic-unit-testing
 pragmatic-unit-testing-patterns
+predictive-analytics-pytorch
 prehistoric-creature-bust-zbrush-photoshop-1161
 prelude-cc-fundamentals
 prelude-premiere-pro-fundamentals-video-production-2515
@@ -6831,12 +6988,17 @@ premiere-pro-media-encoder-mastering-compression-settings-2502
 premiere-pro-psychological-editing-2490
 premierepro-cc-fundamentals
 premises-capacity-upgrade-monitoring-google-clouds-apigee-api-platform
+premises-installation-fundamentals-google-clouds-apigee-api-platform
 premises-management-security-upgrade-google-clouds-apigee-api-platform
 preparing-cobit5-foundation-exam
 preparing-data-feature-engineering-machine-learning
 preparing-data-machine-learning
 preparing-data-modeling-scikit-learn
 preparing-existing-dotnet-applications-continuous-delivery
+preparing-google-cloud-associate-cloud-engineer-exam
+preparing-google-cloud-professional-cloud-architect-exam
+preparing-google-cloud-professional-cloud-architect-exam-update
+preparing-google-cloud-professional-data-engineer-exam
 preparing-migrate-office-365
 preparing-organization-iso-27001-2013-certification
 preparing-pass-microsoft-azure-70-533-exam
@@ -7226,10 +7388,12 @@ recoloring-artwork-illustrator-1899
 recommendation-systems-tensorflow-gcp
 recon-ng-penetration-testing-osint-gathering
 recording-managing-excel-macros
+red-hat-ansible-tower-managing
 red-hat-enterprise-linux-6-booting-runlevels
 red-hat-enterprise-linux-shell-fundamentals
 red-hat-enterprise-linux-shell-scripting-fundamentals
 red-hat-enterprise-linux-storage-fundamentals
+red-team-tools-adversary-techniques-mitre-attack
 redgate-sql-prompt
 redhat-openstack-rhcsa-compute-network-services
 redhat-openstack-rhcsa-storage-orchestration
@@ -7248,6 +7412,7 @@ regular-expressions-fundamentals
 relational-database-design
 relationship-management-tracking
 reliable-cloud-infrastructure-design-process
+reliable-google-cloud-infrastructure-design-process
 removing-objects-camera-projection-nuke-386
 render-passes-maya-3575
 render-scripting-python-maya-pdplayer-1587
@@ -7453,6 +7618,7 @@ run-cycles-maya-1062
 run-effective-meetings
 running-applications-microsoft-azure-getting-started
 running-business-information-security
+running-jenkins-docker
 running-large-solution-at-scale
 running-node-applications-io-js
 running-xenmobile-vsphere
@@ -7553,6 +7719,7 @@ scripting-realflow-3578
 scrum-development-jira-agile
 scrum-essentials-exam-prep
 scrum-executive-briefing
+scrum-executives-leaders-boss
 scrum-fundamentals
 scrum-master-fundamentals-foundations
 scrum-master-fundamentals-growing-team
@@ -7621,6 +7788,7 @@ section-drawings-revit-1501
 secure-account-management-fundamentals
 secure-coding-identifying-mitigating-xxe-vulnerabilities
 secure-coding-insecure-deserialization-preventing
+secure-coding-preventing-broken-access-control
 secure-coding-preventing-insufficient-logging-monitoring
 secure-coding-preventing-sensitive-data-exposure
 secure-coding-using-components-known-vulnerabilities
@@ -7642,11 +7810,13 @@ securing-integrating-components-application
 securing-integrating-components-application-1
 securing-java-web-application-data
 securing-linux-servers
+securing-microsoft-365-messaging-environments
 securing-microsoft-azure-subscriptions
 securing-network-communication-cisco-vpns
 securing-network-devices-ccna-security-210-260-iins
 securing-node-js-web-app
 securing-spring-data-rest-apis
+securing-ssas-models
 securing-switch
 securing-switch-cisco-ccna-200-125-100-105
 securing-virtual-machines-azure-key-vault
@@ -7713,12 +7883,14 @@ serilog-enrichers-getting-info-into-log-entries
 server-administration-for-comptia-server-plus-sk0-004
 server-architecture-for-comptia-server-plus-sk0-004
 server-hardware
+server-rendering-react-components
 server-side-swift-vapor-getting-started
 serverless-analytics-aws
 serverless-big-picture
 serverless-data-analysis-google-bigquery-cloud-dataflow
 serverless-machine-learning-tensorflow-google-cloud-platform
 serverless-programming-fn-project
+service-workers-deep-dive
 services-ccnp-routing-switching-300-115-switch
 session-management-testing-web-application-penetration-testing
 set-detecting-malicious-traffic-signature-session-analysis
@@ -7922,6 +8094,7 @@ simulating-wrapper-peeling-effect-maya-1960
 single-page-apps-jumpstart
 sinonjs-fundamentals
 sirikit-introduction
+site-administration-confluence-cloud
 site-analysis-revit-1373
 site-building-bootstrap-angularjs-ef-azure
 site-building-with-drupal-7
@@ -8396,6 +8569,7 @@ swiftfest-boston-2019-session-25
 swiftfest-boston-2019-session-26
 swiftfest-boston-2019-session-27
 swiftfest-boston-2019-session-28
+swiftui-getting-started
 switching-ccna-data-center-200-150-200-155
 swords-shovels-character-controller-ai
 swords-shovels-character-inventory-system
@@ -8450,8 +8624,10 @@ tdd-spring-junit5
 teaching-kids-basic-html
 teaching-kids-programming
 team-collaboration-communication
+team-communication-collaboration-confluence
 team-foundation-build-2010-intro
 team-foundation-server-2013-new-features
+team-time-management-techniques
 teamcity-getting-started
 teched-2011-bonus-sessions
 technical-business-analyst
@@ -8463,6 +8639,17 @@ techniques-sculpting-like-masters-zbrush-1357
 technology-careers-dark-side
 technology-keeping-up
 technology-troubleshooting-essentials
+techskillsday-interview-aaron-skonnard-malala-fund
+techskillsday-interview-andrew-yang
+techskillsday-interview-asim-hussain
+techskillsday-interview-chloe-condon
+techskillsday-interview-deborah-kurata
+techskillsday-interview-eric-daimler
+techskillsday-interview-john-papa
+techskillsday-interview-rachel-higham
+techskillsday-interview-scott-hanselman
+techskillsday-interview-troy-hunt
+techskillsday-interview-wendy-warham
 tekpub-mercurial
 tekpub-postgres
 tekpub-ravendb
@@ -8508,7 +8695,9 @@ testable-windows-8
 testcafe-end-to-end-web-testing-getting-started
 testing-and-prototyping-javascript-apps
 testing-angularjs-from-scratch
+testing-applications-comptia-pentest
 testing-automation-big-picture
+testing-debugging-ansible-automation
 testing-django-applications
 testing-fundamentals-ios
 testing-javascript
@@ -8699,6 +8888,10 @@ toy-model-rapid-prototyping-rhino-1306
 tpl-async
 tq-ai-channel-introduction
 tq-artificial-intelligence
+tq-blockchain
+tq-blockchain-channel-introduction
+tq-tech-keeping-us-connected
+tracing-leveraging-requirements
 track-mattes-after-effects-1610
 tracking-after-effects-1500
 tracking-syntheyes-maya-1866
@@ -8983,6 +9176,7 @@ using-csharp-interfaces
 using-data-merge-feature-indesign-403
 using-datatables-create-data-driven-gameplay-unreal-engine-4-2035
 using-decimation-master-zbrush-146
+using-declarative-jenkins-pipelines
 using-dependency-injection-on-ramp
 using-docker-aws
 using-dynamics-destruction-maya-1902
@@ -9017,6 +9211,7 @@ using-mongodb-aspdotnet-mvc
 using-morph-magic-daemons-realflow-413
 using-motionbuilders-fbik-control-rigs-136
 using-multi-map-exporter-zbrush-519
+using-negotiating-techniques-reach-agreements
 using-office-2013-sharepoint-server
 using-office-365-calendar
 using-office-365-groups
@@ -9030,6 +9225,7 @@ using-outlook-2016
 using-paintstop-zbrush-197
 using-pattern-based-modeling-create-exterior-glazing-families-1964
 using-photoshop-alter-lighting-an-image-484
+using-powerapps-with-excel-onedrive-and-sharepoint
 using-predictive-analytics-improve-customer-journey
 using-ptex-texturing-look-dev-mudbox-renderman-ris-2281
 using-pytorch-in-the-cloud-playbook
@@ -9326,6 +9522,7 @@ web-accessibility-meeting-guidelines
 web-animations-api-building-uis
 web-api-design
 web-app-hacking-password-reset-functionality
+web-app-pen-testing-weak-cryptography
 web-app-pentesting-configuration-deployment-management
 web-app-pentesting-fundamentals
 web-app-pentesting-input-validation
@@ -9695,6 +9892,7 @@ working-3d-storyboard-pro-1599
 working-3d-toon-boom-harmony-1187
 working-anchored-objects-indesign-483
 working-arbor-press-solidworks-1626
+working-colors-images-css
 working-communicating-with-different-personalities
 working-construction-template-revit-1746
 working-data-types-r
@@ -9704,6 +9902,7 @@ working-drawings-construction-documents-autocad-1534
 working-dwg-files-revit-1444
 working-enlighten-image-effects-unity-2339
 working-excel-ipad
+working-geolocation-html
 working-geometric-constraints-autocad-1798
 working-git-branches
 working-javascript-modules
@@ -9802,6 +10001,7 @@ xpath-3-0-whats-new
 xslt-3-0-whats-new-part1
 xslt-foundations-part1
 xunitdotnet2-dotnet-code-testing
+yammer-2020
 yammer-business-professionals
 yeoman-fundamentals
 your-first-day-3ds-max-1704

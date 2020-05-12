@@ -1,7 +1,8 @@
 from __future__ import unicode_literals
-import sys, os, time, shutil, re, getpass, io, certifi, plura_dl
+import sys, os, time, shutil, re, io, certifi, plura_dl
 from plura_dl import PluraDL
 from plura_dl.utils import ExtractorError, DownloadError
+from plura_dl.scrapeutils import extract_user_credentials, Logger
 if sys.version_info[0] <3:
     raise Exception("Must be using Python 3")
 
@@ -9,10 +10,10 @@ certpath = os.path.abspath(certifi.where())
 os.environ["SSL_CERT_FILE"] = certpath
 
 # IMPORTANT SETTINGS TO PREVENT SPAM BLOCKING OF YOUR ACCOUNT/IP AT PLURALSIGHT # # # # # # # # # #
-SLEEP_INTERVAL = 60     # minimum sleep time                   #                                  #
-SLEEP_OFFSET   = 120    # set random sleep time up to          #  Change this at your own risk.   #
-SLEEP_PLAYLIST = 60     # sleep time between playlist requests #                                  #
-RATE_LIMIT     = 10**6  # download rate in bytes/s             #                                  #
+SLEEP_INTERVAL = 100    # minimum sleep time (s)                   #                                  #
+SLEEP_OFFSET   = 150    # set random sleep time (s) up to          #  Change this at your own risk.   #
+SLEEP_PLAYLIST = 100    # sleep time (s) between playlist requests #                                  #
+RATE_LIMIT     = 500    # download rate (kb/s)                     #                                  #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Global defaults
@@ -25,33 +26,11 @@ PLURAURL = r"https://app.pluralsight.com/library/courses/"
 SCRIPTPATH = os.path.dirname(os.path.abspath(sys.argv[0]))
 COOKIEPATH = os.path.join(SCRIPTPATH, 'cookies')
 COOKIEFILE = os.path.join(COOKIEPATH, 'cookies.txt')
+RATE_LIMIT = RATE_LIMIT*10**3
 if not os.path.exists(COOKIEPATH):
     os.mkdir(COOKIEPATH)
 elif os.path.exists(COOKIEFILE):
     os.remove(COOKIEFILE)
-
-
-class Logger(object):
-    """Handling logging mechanism of PluraDL.
-    
-    Arguments:
-        logpath {str} -- Path to logfile
-    """
-    def __init__(self,logpath):
-        self.logpath = logpath
-        with open(self.logpath, 'wt') as f: f.close
-
-    def debug(self, msg):
-        print(msg)
-        with open(self.logpath, 'at') as f: f.write(msg+'\n')
-
-    def warning(self, msg):
-        print(msg)
-        with open(self.logpath, 'at') as f: f.write(msg+'\n')
-
-    def error(self, msg):
-        print(msg)
-        with open(self.logpath, 'at') as f: f.write(msg+'\n')
 
 
 def set_playlist_options(digits):
@@ -64,7 +43,8 @@ def set_playlist_options(digits):
 
     n = len(digits)
     if n == 0:
-        pass
+        PDL_OPTS.pop("playliststart", None)
+        PDL_OPTS.pop("playlistend", None)
     elif n == 1:
         print("Downloading video indicies up to",digits[0],"to")
         PDL_OPTS["playlistend"]   = digits[0]
@@ -90,11 +70,13 @@ def move_content(pdl, course_id, coursepath, completionpath):
     pdl.to_stdout("Moving content to " + finalpath)
     set_directory(completionpath)
     try:
-        if os.path.exists(finalpath):
-            shutil.rmtree(finalpath)
-        shutil.move(coursepath,finalpath)
-        if os.path.exists(INPROGRESSPATH):
-            shutil.rmtree(INPROGRESSPATH)
+        os.makedirs(finalpath)
+        for completed_file in os.listdir(coursepath):
+            final_file = os.path.join(finalpath, completed_file)
+            if os.path.exists(final_file):
+                shutil.rmtree(final_file)
+            shutil.move(os.path.join(coursepath, completed_file), final_file)
+        shutil.rmtree(coursepath)
     except PermissionError:
         print("Directory still in use, leaving it. Will be fixed in future releases.")
 
@@ -182,116 +164,6 @@ def pluradl(course):
     else:
         print("Course", course_id, "already downloaded")
         return True
-
-
-def flag_parser():
-    """Argument handling of 4 or more arguments, interpreting arguments
-    as flags with associated values.
-    
-    Returns:
-        Bool -- Validation of argument input
-    """
-    if len(sys.argv) < 5:
-        return False, "", ""
-    
-    global USERNAME
-    global PASSWORD
-
-    def _check_flags(key, flag_states, arg_string=' '.join(sys.argv[1:])):
-        for flag in flag_states[key][1:]:
-            if flag in all_flags:
-                lookaroundflag = r'(?<=' + flag + ' ' +  ')'
-                lookaroundflag+=r".*?[\S]+"
-        return re.findall(lookaroundflag, arg_string)
-
-    def _check_inputs(key, user_inputs):
-        for user_input in user_inputs:
-            user_input = user_input.strip()
-            if user_input not in (all_flags):
-                flag_inputs[key] = user_input
-                break # will take the first valid input
-    
-    usn_psw_flag_state = False
-    flag_states = {"usn":[False],"psw":[False]}
-    flag_inputs = {}
-    username_flags = ("--user", "--username", "-u")
-    password_flags = ("--pass", "--password", "-p")
-    all_flags=(username_flags+password_flags)
-    
-    for arg in sys.argv[1:]:
-        if arg in username_flags:
-            flag_states["usn"][0] = True
-            flag_states["usn"].append(arg)
-        if arg in password_flags:
-            flag_states["psw"][0] = True
-            flag_states["psw"].append(arg)
-    
-    if flag_states["usn"][0] and flag_states["psw"][0]:
-        usn_psw_flag_state = True
-    
-    for key in flag_states.keys():
-        if flag_states[key][0]:
-            user_inputs = _check_flags(key, flag_states)
-            if user_inputs:
-                _check_inputs(key, user_inputs)
-    
-    if (not "usn" in flag_inputs.keys()) or (not "psw" in flag_inputs.keys()):
-        usn_psw_flag_state = False
-    
-    if usn_psw_flag_state:
-        USERNAME = flag_inputs["usn"]
-        PASSWORD = flag_inputs["psw"]
-        return True, USERNAME, PASSWORD
-    else:
-        return False, "", ""
-
-
-def arg_parser():
-    """Handling of simple username and password argument input.
-    
-    Returns:
-        Bool -- Validation of argument input
-    """
-    if len(sys.argv) < 3:
-        return False, "", ""
-    global USERNAME
-    global PASSWORD
-
-    username = sys.argv[1]
-    password = sys.argv[2]
-    if username[0] != '-' and password[0] != '-':
-        USERNAME = sys.argv[1]
-        PASSWORD = sys.argv[2]
-        return True, USERNAME, PASSWORD
-    else:
-        return False, "", ""
-
-
-def get_usr_pw():
-    """Requesting credentials from the user.
-    
-    Raises:
-        ValueError: User enters an empty password too many times
-    """
-    print("Enter you Pluralsight credentials")
-    for attempt in ["First","Second","Last"]:
-        u0 = input("Enter username: ")
-        if u0 == "":
-            print("Username cannot be empty, enter username again")
-            print(attempt, "attempt failed")
-            continue
-        else:
-            USERNAME = u0
-        
-        print("Enter password (will not be displayed)")
-        p0 = getpass.getpass(': ')
-        if p0 != "":
-            PASSWORD = p0
-            return USERNAME, PASSWORD
-        else:
-            print('Password cannot be empty, enter password again')
-    else:
-        raise ValueError('Username or password was not given.')
 
 
 def set_subtitle():
@@ -403,17 +275,7 @@ def main():
     """
     global DLPATH, USERNAME, PASSWORD
     global INPROGRESSPATH, FINISHPATH, FAILPATH, INTERRUPTPATH
-
-    flag_state = flag_parser()
-    arg_state = arg_parser()
-    if flag_state[0]:
-        print("Executing by flag input ..")
-        USERNAME, PASSWORD = flag_state[1], flag_state[2]
-    elif arg_state[0]:
-        print("Executing by user input ..")
-        USERNAME, PASSWORD = arg_state[1], arg_state[2]
-    else:
-        USERNAME, PASSWORD = get_usr_pw()
+    USERNAME, PASSWORD = extract_user_credentials()
     print("Setting username to:", USERNAME)
 
     set_subtitle()
